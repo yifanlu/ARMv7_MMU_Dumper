@@ -1,7 +1,7 @@
 Bare Metal ARMv7 MMU Translation Table Dumper
 
 All you need is to define printf() and the code should work with your bare metal project.
-This code was hacked together and was not designed to be used once or twice and is not readable.
+This code was hacked together and was designed to be used once or twice and is not readable.
 
 Features:
 -Dumps all first and second level entries pointed to by TBBR0/TBBR1
