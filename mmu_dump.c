@@ -26,7 +26,7 @@ static unsigned int pa2va(unsigned int pa)
     unsigned int i;
 
     va = 0;
-    for (i = 0; i < 0x10000; i++)
+    for (i = 0; i < 0x100000; i++)
     {
         vaddr = i << 12;
         __asm__("mcr p15,0,%1,c7,c8,0\n\t"
